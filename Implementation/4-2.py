@@ -1,6 +1,6 @@
 N = int(input())
 
-answer = 0
+answer = 1
 
 for i in range(N+1):
   for j in range(60):
