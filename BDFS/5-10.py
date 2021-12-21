@@ -1,3 +1,6 @@
+#149p 음료수 얼려 먹기
+#소요시간: 40분....
+
 from collections import deque
 
 def bfs(arr, row, col):
@@ -34,7 +37,5 @@ for i in range(M):
     if(arr[i][j] == 0):
       arr = bfs(arr, i, j)
       ice_num+=1
-
-
 
 print(ice_num)
