@@ -1,5 +1,5 @@
 # 2021.12.21 백준 GoldV 치킨배달(15686)
-# <idea>
+# <ideas>
 # 1. 치킨집의 좌표를 x, y로 묶어서 저장
 # 2. combination 사용, 하나하나씩 빼서 해야 될 듯..
 def get_distance(p1, p2):
