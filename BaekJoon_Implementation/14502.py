@@ -1,7 +1,7 @@
 #2021.12.09 백준 GoldV 연구소(14502, https://www.acmicpc.net/problem/14502)
 # Idea
 # 벽을 세우는 것이 case의 기준
-# combinations 사용하여 벽을 세우고, virus 위치에 대해 bfs 돌려서 바이러스 퍼지는 것 판단하여 총 개수 더함.
+# combinations 사용하여 벽을 세우고, virus 위치에 대해 bfs 돌려서 바이러스 퍼지는 것 판단하여 총 개수 더함.d
 
 
 from itertools import combinations
