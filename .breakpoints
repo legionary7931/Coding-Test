@@ -1,5 +1,13 @@
 {
   "files": {
+    ".replit": [
+      {
+        "id": "a6e24cd9-cfe3-4bd6-9483-e459be899da4",
+        "line": 2,
+        "version": 537,
+        "index": 21
+      }
+    ],
     "BaekJoon_Implementation/14891.py": [
       {
         "id": "f4b1637b-fb3e-4ddd-80d4-00abca77012c",
