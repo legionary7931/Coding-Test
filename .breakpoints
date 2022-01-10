@@ -4,8 +4,24 @@
       {
         "id": "a6e24cd9-cfe3-4bd6-9483-e459be899da4",
         "line": 2,
-        "version": 537,
+        "version": 778,
         "index": 21
+      }
+    ],
+    "BaekJoon_Greedy/11501.py": [
+      {
+        "id": "556a1f5b-9543-49bd-b822-58d365a3ee6f",
+        "line": 17,
+        "version": 508,
+        "index": 333
+      }
+    ],
+    "BaekJoon_Greedy/12018.py": [
+      {
+        "id": "c6bdbbee-6fce-4052-b5c2-c456f58de4cd",
+        "line": 7,
+        "version": 106,
+        "index": 49
       }
     ],
     "BaekJoon_Implementation/14891.py": [
@@ -30,6 +46,14 @@
         "line": 73,
         "version": 1574,
         "index": 1099
+      }
+    ],
+    "Practice/Implementation/9.py": [
+      {
+        "id": "f22d30c1-883e-4831-9d62-1a31cf0f27b0",
+        "line": 25,
+        "version": 3027,
+        "index": 447
       }
     ]
   }
