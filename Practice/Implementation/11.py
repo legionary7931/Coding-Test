@@ -9,10 +9,6 @@ P327 뱀
   -> 처음에는 snake의 좌표를 정리한 큐에서 중복 좌표를 계산해서 할 생각이었지만, 그렇게는 시간복잡도가 너무 높을 것 같다.
   -> 그냥 뱀의 위치를 보드 상에 표시하고, board[new_row][new_col]값이 뱀 몸통값(2)랑 같은지만 판단해주면 효율적으로 구현이 가능했다.
 """
-
-
-
-
 from collections import deque
 
 def change_dir(row_dir, col_dir, new_dir): # 방향 전환 구현함수 잘 알아두기

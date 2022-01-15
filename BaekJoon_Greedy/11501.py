@@ -16,10 +16,10 @@ for _ in range(T):
   profit = 0
 
   max_val = -1
-  for i in range(len(data)-1, -1, -1):
-    if(data[i]>max_val):
+  for i in range(len(data)-1, -1, -1): #뒤부터 탐색하면서
+    if(data[i]>max_val): #만일 현재가보다 그 전날들 값이 높았다면 이때 걸로 팔아야 이득
       max_val = data[i]
-    else:
+    else: #그 전날들 값이 낮았다면 갖고 있다가 max 찍을때 파는게 이득 
       profit+=(max_val-data[i])
 
   print(profit)
