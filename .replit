@@ -1,2 +1,2 @@
 language = "python3"
-run = "python3 ./Practice/DFSBFS/16.py"
+run = "python3 ./Practice/DFSBFS/17.py"
