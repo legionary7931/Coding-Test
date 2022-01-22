@@ -1,3 +1,21 @@
+"""
+P351
+20. 감시 피하기 (DFSBFS)
+-> 1회차(o), 2022/01/22
+
+TIP) 
+
+이 문제는 BFS DFS문제라 하기엔 좀....
+애초에 책조차 BFS DFS로 풀질 않았다.
+
+선생님들의 감시 범위는 상하좌우이지 바이러스 문제 마냥
+퍼져 나가는게 아니기 때문에 bfs, dfs를 쓸 이유가 없으며
+그냥 정석적으로 감시 되는지 안되는지 판단만 해주면 된다.
+
+그냥 python의 combinations 사용 방법에 대해서만 숙지해두자.
+
+"""
+
 from itertools import combinations
 
 def watch(direction, srow, scol):
@@ -46,7 +64,7 @@ def solve():
       arr[data[0]][data[1]] = 'X' #다시 원상복구
 
   return "NO"
-  
+
 N = int(input())
 
 arr = []
